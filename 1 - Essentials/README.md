@@ -7,12 +7,12 @@ São temas comuns à maioria dos times que você atuará.
 
 
 ***
-# Metodos ágeis
+* #  Metodos ágeis
 * Agilidades
 * Objetivos
 ***
 
-# Scrum
+## Scrum
 * Pilares fundamentais
 * Praticas fundamentais
 
@@ -38,16 +38,16 @@ São temas comuns à maioria dos times que você atuará.
 | Incremento / entrega|
 ***
 
-# TRELLO
+## TRELLO
 ***
-
-# GIT
+* # Controle de versão de Código
+## GIT
 ## Comandos basicos
 <https://docs.google.com/document/d/1goD-l4jS4A97IbINWLpdtELsXfPkN8sZ/edit>
 
 ***
+* # Documentação para desenvolvedores
 
-# Documentação para desenvolvedores
   Quando entregamos um projeto, uma biblioteca ou mesmo um exemplo de implementação
 precisamos deixar um mínimo de documentação para quem for utilizar, dar continuidade
 ou dar manutenção consiga fazê-lo sem a necessidade de ler e entender todo o nosso código.
