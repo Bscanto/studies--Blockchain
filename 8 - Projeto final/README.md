@@ -1,2 +1,4 @@
-# studies--trainings
-Repository for studies, notes and training from the compass Learning Path.
+# Final project
+
+* Ideação e concepção de aplicação prática de Blockchain
+* Desenvolvimento do projeto final
