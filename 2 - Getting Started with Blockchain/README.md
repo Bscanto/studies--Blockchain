@@ -6,6 +6,9 @@
 
 É um mecanismo avançado que permite o compartilhamento e transparencia de informações na rede. Armazenamento de dados em blocos interligados em uma carreira, os dados são cronologicamente consistentes porque não é possivel excluir nem modificar a cadeia sem o consenso da rede.
 
+### Funcionamento do bitcoin 
+<https://www.youtube.com/watch?v=bBC-nXj3Ng4>
+
 
 
  
