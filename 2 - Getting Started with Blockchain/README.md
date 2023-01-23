@@ -1,2 +1,4 @@
-# studies--trainings
-Repository for studies, notes and training from the compass Learning Path.
+# Getting Started with Blockchain
+
+## Conceitos e Aplicações
+## Solidity and Smart Contracts
