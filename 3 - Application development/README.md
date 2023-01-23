@@ -1,2 +1,8 @@
-# studies--trainings
-Repository for studies, notes and training from the compass Learning Path.
+# application development
+
+* Lógica de programação
+
+* JavaScript & NodeJS
+
+* Prática: Projeto de APIs
+
