@@ -1,2 +1,5 @@
-# studies--trainings
-Repository for studies, notes and training from the compass Learning Path.
+# NFTs
+
+* Conceitos e Aplicações
+* Prática: Criação de NFTs Polygon
+* Preparação para certificação Cloud Practitioner - Parte III
