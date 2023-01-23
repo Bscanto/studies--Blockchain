@@ -1,2 +1,5 @@
-# studies--trainings
-Repository for studies, notes and training from the compass Learning Path.
+# Hathor Network
+
+* Conceitos e Aplicações
+* Prática: Criação de tokens e NFTs Hathor Network
+* Revisão e Prova para certificação Cloud Practitioner
