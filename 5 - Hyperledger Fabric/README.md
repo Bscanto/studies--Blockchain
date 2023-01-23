@@ -1,2 +1,5 @@
-# studies--trainings
-Repository for studies, notes and training from the compass Learning Path.
+# Hyperledger Fabric
+
+* Conceitos e Aplicações
+* Prática: Smart Contracts
+* Preparação para certificação Cloud Practitioner - Parte II
