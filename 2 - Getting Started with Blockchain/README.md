@@ -2,9 +2,9 @@
 
 ---
 
- * ## Conceitos e Aplicações de blockchain
+ * ## **Conceitos e Aplicações de blockchain**
 
-### **O que é Blockchain**
+### O que é Blockchain
 
 >É um mecanismo avançado que permite o compartilhamento e transparencia de informações na rede. Armazenamento de dados em blocos interligados em uma carreira, os dados são cronologicamente consistentes porque não é possivel excluir nem modificar a cadeia sem o consenso da rede.
 
@@ -17,15 +17,27 @@
 ### Criptografia, Esteganografia e criptoanalise
 
 > Fundamentos Principais, a criptografia é ampla e abranjemte, neste tópico foi ensinado o que é, para que serve e como usar a criptografia seja ela para uso pessoal ou proficional.
-#### Criptografia 
+#### Criptografia
 É o conjunto de técnicas para proteger informações de modo que apenas o emssor e o receptor consigam compreende-las.
 #### Estagnografia 
 É o estudo e uso de técnicas para ocultar a existencia de uma mensagem dentro da outra.
 #### Criptoanalise
 É a arte de tentar descobrir, decifrar o texto cifrado e sua encriptação)chave). 
 
+## Bitcoin e Blockchain
+#### Conceitos Fundamentais
 
-
+| características| Sisstema Tradicional| Bitcoin|
+|   |    |
+| Contabilidade|Centralizado|Blockchain |
+|Armazenamento|Fracionado|100% |
+|Segurança|Institucional|Criptografia|
+|Emissao de moeda|Política econômoca| Algoritimo |
+|Transações |Centralizado| Distribuído |
+|Autenticação|Centralizado|Blockchain|
+|Regulamentação|Banco Central| Ainda indefinida |
+|Processos de Desisão|Arbitrário|Consenso |
+|Controle dinheiro|Banco| Você |
 
 
 
@@ -36,4 +48,5 @@
 
 
 ---
- * Solidity and Smart Contracts
+* ## **Solidity and Smart Contracts**
+ 
