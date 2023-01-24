@@ -27,17 +27,17 @@
 ## Bitcoin e Blockchain
 #### Conceitos Fundamentais
 
-| características| Sisstema Tradicional| Bitcoin|
-|   |    |
-| Contabilidade|Centralizado|Blockchain |
+| características | Sisstema Tradicional | Bitcoin |
+|-----------------|----------------------|-------|
+| Contabilidade|Centralizado| blockchain|
 |Armazenamento|Fracionado|100% |
-|Segurança|Institucional|Criptografia|
-|Emissao de moeda|Política econômoca| Algoritimo |
-|Transações |Centralizado| Distribuído |
+|Segurança|Institucional|Criptografia |
+|Emissao de moeda|Política econômoca|Algoritimo|
+|Transações |Centralizado|Distribuído|
 |Autenticação|Centralizado|Blockchain|
-|Regulamentação|Banco Central| Ainda indefinida |
-|Processos de Desisão|Arbitrário|Consenso |
-|Controle dinheiro|Banco| Você |
+|Regulamentação|Banco Central|Ainda indefinido|
+|Processos de Desisão|Arbitrário|Consenso|
+|Controle dinheiro|Banco|Você|
 
 
 
