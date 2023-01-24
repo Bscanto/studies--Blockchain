@@ -1,5 +1,7 @@
 # Getting Started with Blockchain
 
+---
+
  * ## Conceitos e Aplicações de blockchain
 
 ### **O que é Blockchain**
@@ -12,7 +14,26 @@
 
 <https://www.youtube.com/watch?v=bBC-nXj3Ng4>
 
+### Criptografia, Esteganografia e criptoanalise
+
+> Fundamentos Principais, a criptografia é ampla e abranjemte, neste tópico foi ensinado o que é, para que serve e como usar a criptografia seja ela para uso pessoal ou proficional.
+#### Criptografia 
+É o conjunto de técnicas para proteger informações de modo que apenas o emssor e o receptor consigam compreende-las.
+#### Estagnografia 
+É o estudo e uso de técnicas para ocultar a existencia de uma mensagem dentro da outra.
+#### Criptoanalise
+É a arte de tentar descobrir, decifrar o texto cifrado e sua encriptação)chave). 
 
 
- 
+
+
+
+
+
+
+
+
+
+
+---
  * Solidity and Smart Contracts
