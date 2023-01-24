@@ -46,7 +46,6 @@
 
 
 
-
 ---
 * ## **Solidity and Smart Contracts**
  
