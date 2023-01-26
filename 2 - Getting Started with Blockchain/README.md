@@ -39,6 +39,12 @@
 |Processos de Desisão|Arbitrário|Consenso|
 |Controle dinheiro|Banco|Você|
 
+* A blockchain é um registro público e imutável de todas as transações ja realizadas desde a criação do bitcoin.
+* Identidade : Chave pública.
+* Segurança : Assinaturas digitais e chave secreta.
+* Peer-to-peer : protocolo de consenso.
+* Mineradores : criam novos blocos com as novas transações válidas, competem pelo direito de adicionar o proximo bloco válido á cadeia através de Poof of work e recebem novos bitcoins como recompença.
+
 
 
 
