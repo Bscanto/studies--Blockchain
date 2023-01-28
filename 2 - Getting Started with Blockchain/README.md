@@ -55,3 +55,12 @@
 ---
 * ## **Solidity and Smart Contracts**
  
+
+### Smart Contracts (Contratos inteligentes)
+
+> Smart contracts os mais comuns é um contrato normal que basicamente faz com que se tornem
+auto-executável, são feitos por meio de programação e possuem todos os termos aquilo que foi 
+estipulado assim todas as condições do contrato serão registradas nesse código de programação no contrato
+e uma vez registrado Esse contrato na rede blockchain ele se torna inalterável então assim todas as condições deste contrato seja prazo, preço, data e tudo isso vai se manter de uma forma que não pode ser alterado por nenhuma das partes os contratos inteligentes são registrados na rede blockchain e eu objetivo
+principal deles é eliminar o intermediário, como contratos inteligente são registrados na blockchain eles
+eliminam a necessidade de existir uma plataforma centralizada que intermedie todas as informações que ocorra, sendo assim qualquer pessoa pode registrar uma transação com um Smart Contract nessa rede é não importa a localidade que ela que ela esteja. Isso traz muito mais segurança, muito mais garantia para as partes de que as condições que o negócio não sejam adulterados ou não deixar de ser cumpridas Por que qualquer um dos envolvidos.
