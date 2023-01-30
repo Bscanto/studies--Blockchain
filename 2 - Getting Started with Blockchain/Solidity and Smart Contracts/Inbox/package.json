@@ -10,8 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "ganache-cli": "^6.12.2",
-    "mocha": "^10.2.0",
+    "mocha": "^9.1.2",
     "solc": "^0.4.17",
-    "web3": "^1.8.1"
+    "web3": "^1.6.0"
   }
 }
