@@ -10,5 +10,10 @@ The source codes are divided into `courses` and `chapters` as folders and chapte
 
 
 
+# Contratos Inteligentes
 
+![Inbox Contract](https://blog.mercadobitcoin.com.br/user/pages/314.smart-contracts-o-que-sao-e-como-funcionam/smart-contracts.webp)
 
+## Criação de codigos 
+
+> Neste módulo aprendemos a criação de códigos fontes para contratos inteligentes usados em transações de Ethereum na blockchcin 
