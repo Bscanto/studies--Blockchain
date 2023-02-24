@@ -1,6 +1,5 @@
 # Development - Security
 
-
 ![](https://blog.convisoappsec.com/wp-content/uploads/2015/11/Thumb-Processos-Dev-Seguro_Prancheta-1-1200x675.png)
 
 
@@ -80,5 +79,4 @@ Neste curso também foi abordados temas como:
 **Aceitação de software** - implicações para a segurança na fase de aceitação do software, incluindo critérios de conclusão, aceitação e documentação de riscos, critérios comuns e métodos de testes independentes.
   
 **implementação/Manutenção de operações e descarte** - Problemas de segurança envolvendo operações de estado estacionário e gerenciamento de software. Medidas de segurança que devem ser adotadas quando um produto chega ao fim de sua vida.
-
 

@@ -13,7 +13,6 @@ campaign = await new web3.eth.Contract(
 JSON.parse(compiledCampaign.interface),
 campaignAddress
 );
-});
 
 describe("Campaigns", () => {
 it("deploys a factory and a campaign", () => {
