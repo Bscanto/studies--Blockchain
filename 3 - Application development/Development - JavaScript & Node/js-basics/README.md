@@ -336,17 +336,26 @@ Da mesma forma objetos em JS podem ter Propriedades que definem suas caracterist
 ## Objetos
 Um objeto é uma coleção de dados e/ou funcionalidades relacionada que geralmente consistem m diversas variáveis e funções que são chamadas e propriedades e métodos quando estão dentro de objetos.
 
+[Trabalhando com objetos em JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects)
+
 ## Construtores
 O construtor é um método especial para criar e inicializar um objeto criado apartir de uma classe.
 
+[Construtores](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Classes/constructor)
 ## Math
 É um objeto integrado que possui propriedades e métodos para constantes e funções jmatemática, não é um objeto de função, ao contráriode muitos outros objetos globais. MATH não pe um construtor, todas as propriedades e métodos de math são estáticos, você se refere a constante PI como Math.PI e chama a função seno como Math.in(x), onde x é o argumento do método. As constantes são definidas como a precisão total  dos números reais em javascript.
 
+[Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+
 ## Strings
 O objeto String é o constructor para string, ou uma sequência de caracteres.
+
+[Strings](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String)
  
 ## Date
  Cria uma instância JS de date que representa um unico momento do tempo. objeto Date são baseados no valor de tempo que é o número de milesegundos desde 1° de janeiro de 1970(UTC).
+
+ [DATE](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
 **[⬆ voltar ao topo](#Índice)**
 
