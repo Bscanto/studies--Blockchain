@@ -26,7 +26,9 @@
   - [Strings](#strings)
   - [Date](#date)
   - [Arrays](#arrays)
+  - [Arrays (Saiba mais clique aqui)](#arrays-saiba-mais-clique-aqui)
   - [Funções](#funções)
+  - [Função(Saiba mais clique aqui)](#funçãosaiba-mais-clique-aqui)
  
 ## Introdução
 
@@ -333,29 +335,43 @@ Objetos em JS podem ser comparados com objetos na vida real, o conceito de objet
 Em jacascript, um objeto é uma entidade independente como propriedade e tipo. Compare-a como uma xícara, por exemplo,  uma xícara é um objeto com propriedade, ela tem cor, uma forma, peso, uma material de composição, etc...
 Da mesma forma objetos em JS podem ter Propriedades que definem suas caracteristicas.
 
+```javascript
+let itemName = 'Pen';
+let itemPrice = 3;
+let itemAvailable =true;
+let iteColor ='red';
+
+let pen = {
+    itemName: 'Pen',
+    itemPreice: 3,
+    itemAvalable: true,
+    itemColor:'red'
+}
+```
+
 ## Objetos
 Um objeto é uma coleção de dados e/ou funcionalidades relacionada que geralmente consistem m diversas variáveis e funções que são chamadas e propriedades e métodos quando estão dentro de objetos.
 
-[Trabalhando com objetos em JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects)
+[Trabalhando com objetos em JS (Saiba mais clique aqui)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects)
 
 ## Construtores
 O construtor é um método especial para criar e inicializar um objeto criado apartir de uma classe.
 
-[Construtores](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Classes/constructor)
+[Construtores (Saiba mais clique aqui)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Classes/constructor)
 ## Math
 É um objeto integrado que possui propriedades e métodos para constantes e funções jmatemática, não é um objeto de função, ao contráriode muitos outros objetos globais. MATH não pe um construtor, todas as propriedades e métodos de math são estáticos, você se refere a constante PI como Math.PI e chama a função seno como Math.in(x), onde x é o argumento do método. As constantes são definidas como a precisão total  dos números reais em javascript.
 
-[Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+[Math (Saiba mais clique aqui)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
 ## Strings
 O objeto String é o constructor para string, ou uma sequência de caracteres.
 
-[Strings](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String)
+[Strings (Saiba mais clique aqui)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String)
  
 ## Date
  Cria uma instância JS de date que representa um unico momento do tempo. objeto Date são baseados no valor de tempo que é o número de milesegundos desde 1° de janeiro de 1970(UTC).
 
- [DATE](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date)
+ [DATE (Saiba mais clique aqui)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
 **[⬆ voltar ao topo](#Índice)**
 
@@ -363,9 +379,58 @@ O objeto String é o constructor para string, ou uma sequência de caracteres.
 
 ## Arrays
 
+O JavaScript Array faz parte dos objetos globais da linguagem e é utilizado para armazenar uma coleção de elementos em uma única variável. Na prática, o array é uma estrutura de dados que contém um índice numérico e um elemento, que pode ser de qualquer tipo primitivo de dados, um objeto ou, até mesmo, um outro array.
+
+Trata-se de um recurso muito utilizado na linguagem e, portanto, é importante que as pessoas que utilizam JavaScript entendam como ele funciona e de que forma pode ser usado em uma aplicação web. 
+
+
+```javascript
+let friends = ['Marcos', 'Silvia', 'Elisa']
+friends[1] = 'luisa'
+
+console.log(friends)
+```
+[Arrays (Saiba mais clique aqui)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
 ---
 
 **[⬆ voltar ao topo](#Índice)**
 ## Funções
+Algo bem comum das linguagens de programação é o uso de funções, cada linguagem tem suas particularidades e maneiras específicas de como definir as mesmas. Nesse post vamos entender as diferentes definições e tipos de funções em JavaScript.
+O jeito mais básico de definir funções em JavaScript é através da function declaration, toda função de declaração começa com a palavra reservada e obrigatória function, seguida pelo nome da função (também obrigatório) e uma lista de parâmetros (opcionais) separados por vírgula e encapsulados em parenteses (obrigatórios), o último passo é definir as chaves (obrigatórias) que será o corpo da função.
 
+A estrutura seria mais ou menos assim:
+
+![](https://res.cloudinary.com/mahenrique94/image/upload/v1575548840/Untitled_Diagram_wfmnwk.png),
+
+```javascript
+function ola() {
+    console.log('Olá')
+}
+ola()
+
+function ola() {
+    function mensagem() {
+        return 'Olá'
+    }
+    console.log(mensagem())
+}
+ola()
+
+function ola() {
+    function mensagem() {
+        return 'Olá'
+    }
+    console.log(mensagem())
+}
+ola()
+
+console.log(mensagem()) // a função mensagem não irá existir nesse trecho de código, ela somente existe dentro da função ola
+
+function ola(nome) {
+    console.log('Olá', nome)
+}
+ola('Matheus')
+```
+
+[Função(Saiba mais clique aqui)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)
 ---
