@@ -98,6 +98,7 @@ Função | É possivel declarar uma váriavel com uma função, podendo fazer op
 
 Em javascript (JS) temos diferentes tipos de operadores, usamos essesoperadores junto com nossas variáveis e constantes para criar expressões e com essas expressões podemos implementar lógicas e algorítimos, portanto aqui estão os diferentes tipos de operadores em JS
 
+
 ## Operadores aritméticos
 
 Operador	|Descrição	|Exemplo
@@ -147,6 +148,7 @@ Atribuição AND bit-a-bit|	x &= y	|x = x & y
 Atribuição XOR bit-a-bit|	x ^= y|	x = x ^ y
 Atribuição OR bit-a-bit	|x I= y	|x = x I y
 
+[Pasta Operadores](https://github.com/Bscanto/studies--trainings/tree/main/3-Application%20development/DevelopmenJavaScripe%26node.js/js-basics/operators)
 
 **[⬆ voltar ao topo](#Índice)**
 
@@ -354,6 +356,8 @@ Um objeto é uma coleção de dados e/ou funcionalidades relacionada que geralme
 
 [Trabalhando com objetos em JS (Saiba mais clique aqui)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects)
 
+[pasta Objetos](https://github.com/Bscanto/studies--trainings/tree/main/3-Application%20development/DevelopmenJavaScripe%26node.js/js-basics/objects)
+
 ## Construtores
 O construtor é um método especial para criar e inicializar um objeto criado apartir de uma classe.
 
@@ -393,6 +397,9 @@ console.log(friends)
 [Arrays (Saiba mais clique aqui)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
 ---
 
+
+[pasta Matrizes](https://github.com/Bscanto/studies--trainings/tree/main/3-Application%20development/DevelopmenJavaScripe%26node.js/js-basics/arrays)
+
 **[⬆ voltar ao topo](#Índice)**
 ## Funções
 Algo bem comum das linguagens de programação é o uso de funções, cada linguagem tem suas particularidades e maneiras específicas de como definir as mesmas. Nesse post vamos entender as diferentes definições e tipos de funções em JavaScript.
@@ -431,6 +438,7 @@ function ola(nome) {
 }
 ola('Matheus')
 ```
+[Pasta Funções](https://github.com/Bscanto/studies--trainings/tree/main/3-Application%20development/DevelopmenJavaScripe%26node.js/js-basics/functions)
 
 [Função(Saiba mais clique aqui)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)
 ---
