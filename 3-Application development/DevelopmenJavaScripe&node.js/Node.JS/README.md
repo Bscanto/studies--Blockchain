@@ -5,14 +5,14 @@
 
 ## Índice
 
-- [O que é HTTP](#javascript--node)
+- [O que é HTTP](#O-que-é-HTTP)
   
-- [Express,JS](#Express.js)
+- [Express,JS](#Express)
   - [Rotas](#Rotas)
   - [Parâmetros](#Parâmetros)
-  - [Query parts](#QueryParams)
+  - [Query parts](#Query-Params)
  
-- [MySQL Básico](#controle-de-fluxo)
+- [MySQL Básico](#MySQL-Básico)
   - [Comandos básicos](#Comandos-Básicos)
 - [1° Projeto perguntas e respostas](#1°Projeto-Guia-de-perguntas)
 
@@ -35,7 +35,7 @@ console.log("Meu servidor está rodando!");
 
 **[⬆ voltar ao topo](#Índice)**
 
-### EXPRESS.js
+### EXPRESS
 
 O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel.
 
