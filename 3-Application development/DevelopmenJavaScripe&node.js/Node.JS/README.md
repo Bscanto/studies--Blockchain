@@ -13,9 +13,8 @@
   - [Query parts](#QueryParams)
  
 - [MySQL Básico](#controle-de-fluxo)
-  - [Comandos básicos](#ComandosBásicos)
-- [1° Projeto perguntas e respostas](#1°ProjetoGuiadeperguntas
-)
+  - [Comandos básicos](#Comandos-Básicos)
+- [1° Projeto perguntas e respostas](#1°Projeto-Guia-de-perguntas)
 
 >>>NODE.js é  um ambiente de execução JavaScript que permite executar aplicações desenvolvidas com a linguagem de  forma autônoma, sem depender de um navegador, com ele é possivel criar praticamente  qualquer tipo de aplicação wbe desde serviços para sites estáticos e dinamicos, até API e sistemas baseados em microserviços.
 
@@ -136,6 +135,8 @@ DELETE FROM NOME_DA_TABELA WHERE id = VALOR_DO_ID;
 
 
 
-![Projeto grua perguntas](https://drive.google.com/file/d/1VPsgIfEGK7iUoq40Yeo356Qn1oCPHcaE/view?usp=share_link)
+[Projeto guia perguntas](https://drive.google.com/file/d/1VPsgIfEGK7iUoq40Yeo356Qn1oCPHcaE/view?usp=share_link)
 
 [perguntas e respostas](https://drive.google.com/file/d/13gVXgmsi3Gn_cTycNJlQm8pRWhxBLA4Y/view?usp=share_link)
+
+**[⬆ voltar ao topo](#Índice)**
