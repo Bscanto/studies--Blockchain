@@ -15,7 +15,7 @@
     - [Query Params](#query-params)
     - [MySQL Básico](#mysql-básico)
   - [Projeto Guia de perguntas](#projeto-guia-de-perguntas)
-  - [ES6-ES7-ES8](#es6-es7-es8)
+  - [ES6 (Novas funcionalidades)](#ES6-Novas-funcionalidades)
     - [Const](#const)
     - [Diferença entre VAR e LET:](#diferença-entre-var-e-let)
     - [JSON Encurtados](#json-encurtados)
@@ -165,22 +165,24 @@ DELETE FROM NOME_DA_TABELA WHERE id = VALOR_DO_ID;
 
 ## <h1>Projeto Guia de perguntas
 
-> Nesta etapa foi desenvolvido um prot´tipo pratico de criar uma plataforma de perguntas e respostas, utilizando Express com mysql, utilizando node.js com HTML e CSS e o basico de bootstrap.
+[Pasta com projeto guia perguntas](https://github.com/Bscanto/studies--trainings/blob/main/3-Application%20development/DevelopmenJavaScripe%26node.js/Node.JS/2-(Projeto%231)Guiaperguntas/image%20perguntar.jpeg)
+
+> Nesta etapa foi desenvolvido um protótipo pratico de criar uma plataforma de perguntas e respostas, utilizando Express com mysql, utilizando node.js com HTML e CSS e o basico de bootstrap.
 
 
 
-[Projeto guia perguntas Imagem](https://drive.google.com/file/d/1VPsgIfEGK7iUoq40Yeo356Qn1oCPHcaE/view?usp=share_link)
+[Projeto guia perguntas Imagem](https://github.com/Bscanto/studies--trainings/blob/main/3-Application%20development/DevelopmenJavaScripe%26node.js/Node.JS/2-(Projeto%231)Guiaperguntas/Pagina%20perguntar.jpeg)
 
-![perguntas e respostas Imagem](https://github.com/Bscanto/studies--trainings/blob/main/3-Application%20development/DevelopmenJavaScripe%26node.js/Node.JS/2-(Projeto%231)Guiaperguntas/Image%20perguntas.jpeg)
+[perguntas e respostas Imagem](https://github.com/Bscanto/studies--trainings/blob/main/3-Application%20development/DevelopmenJavaScripe%26node.js/Node.JS/2-(Projeto%231)Guiaperguntas/Pagina%20principal.jpeg)
 
 
-![Pasta com projeto guia perguntas](https://github.com/Bscanto/studies--trainings/blob/main/3-Application%20development/DevelopmenJavaScripe%26node.js/Node.JS/2-(Projeto%231)Guiaperguntas/image%20perguntar.jpeg)
+
 
 
 **[⬆ voltar ao topo](#Índice)**
 
 ---
-## <h1>ES6-ES7-ES8
+## <h1>ES6 Novas funcionalidades
 
 
 ### Const
@@ -402,14 +404,14 @@ Detalhe que na programação assíncrona as coisas são executadas ao mesmo temp
 > Async/await são a forma de escrever promises que nos permitam escrever código assíncrono que parece síncrono. Async/await são, de fato, apenas um adendo sintático que nos dá um modo de criar código mais fácil de se raciocinar a respeito, sem mudar a dinâmica subjacente.
 > >Async/Await nos permitem usar generators para pausar a execução de uma função. Quando usamos async/await, não estamos bloqueando nada, pois a função está dando o controle de volta para o programa principal.
 
-[Codigo exemplo](https://github.com/Bscanto/studies--trainings/blob/main/3-Application%20development/DevelopmenJavaScripe%26node.js/Node.JS/ES678/asyncAwait.js)
+[Codigo exemplo](https://github.com/Bscanto/studies--trainings/tree/main/3-Application%20development/DevelopmenJavaScripe%26node.js/Node.JS/ES678)
 
 **[⬆ voltar ao topo](#Índice)**
 
 ---
 
 ## <h1>Orientação a objeto com Javascript
-##
+###
 
 
 
@@ -428,7 +430,7 @@ Detalhe que na programação assíncrona as coisas são executadas ao mesmo temp
 
 ## <h1>Introdução a API REST con node.js
 
-##
+###
 
 
 
@@ -445,7 +447,7 @@ Detalhe que na programação assíncrona as coisas são executadas ao mesmo temp
 ---
 
 ## <h1>Consume de API REST com Axios
-##
+###
 
 
 
@@ -464,7 +466,7 @@ Detalhe que na programação assíncrona as coisas são executadas ao mesmo temp
 
 ## <h1>Autenticação de API Rest com JWT
 
-##
+###
 
 
 
@@ -482,7 +484,7 @@ Detalhe que na programação assíncrona as coisas são executadas ao mesmo temp
 
 ## <h1>Consumo de API Rest com JWT
 
-##
+###
 
 
 
@@ -501,7 +503,7 @@ Detalhe que na programação assíncrona as coisas são executadas ao mesmo temp
 
 ## <h1>Documentação com API Rest
 
-##
+###
 
 
 
