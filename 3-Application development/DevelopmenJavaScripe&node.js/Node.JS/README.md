@@ -15,7 +15,7 @@
     - [Query Params](#query-params)
     - [MySQL Básico](#mysql-básico)
   - [Projeto Guia de perguntas](#projeto-guia-de-perguntas)
-  - [ES6 (Novas funcionalidades)](#ES6-Novas-funcionalidades)
+  - [ES6 Novas funcionalidades](#es6-novas-funcionalidades)
     - [Const](#const)
     - [Diferença entre VAR e LET:](#diferença-entre-var-e-let)
     - [JSON Encurtados](#json-encurtados)
@@ -31,18 +31,14 @@
       - [Callbacks](#callbacks)
       - [Promises](#promises)
       - [Async/Await](#asyncawait)
-  - [Orientação a objeto com Javascript](#orientação-a-objeto-com-javascript)
-  - [](#)
-  - [Introdução a API REST con node.js](#introdução-a-api-rest-con-nodejs)
-  - [](#-1)
-  - [Consume de API REST com Axios](#consume-de-api-rest-com-axios)
-  - [](#-2)
-  - [Autenticação de API Rest com JWT](#autenticação-de-api-rest-com-jwt)
-  - [](#-3)
-  - [Consumo de API Rest com JWT](#consumo-de-api-rest-com-jwt)
-  - [](#-4)
-  - [Documentação com API Rest](#documentação-com-api-rest)
-  - [](#-5)
+  - [Orientação a objeto com javascript](#orientação-a-objeto-com-javascript)
+    - [O que é orientação a objeto](#o-que-é-orientação-a-objeto)
+    - [Algumas características](#algumas-características)
+    - [Classes](#classes)
+    - [Abstração](#abstração)
+    
+      
+  
 
 >NODE.js é  um ambiente de execução JavaScript que permite executar aplicações desenvolvidas com a linguagem de  forma autônoma, sem depender de um navegador, com ele é possivel criar praticamente  qualquer tipo de aplicação wbe desde serviços para sites estáticos e dinamicos, até API e sistemas baseados em microserviços.
 
@@ -228,7 +224,7 @@ var idade = 35;
 var Empresa = "Compass";
 
 var user = {
-    //Normalment usaria essa sintese
+    //Normalmente usaria essa sintese
      nome: nome,
      idade: idade,
      empresa: empresa
@@ -410,71 +406,59 @@ Detalhe que na programação assíncrona as coisas são executadas ao mesmo temp
 
 ---
 
-## <h1>Orientação a objeto com Javascript
-###
+## <h1>Orientação a objeto com javascript
+
+### O que é orientação a objeto
+> Programação orientada a objetos é um paradigma de programação baseado no conceito de "objetos", que podem conter dados na forma de campos, também conhecidos como atributos, e códigos, na forma de procedimentos, também conhecidos como métodos
+
+### Algumas características
+>   O que fazemos nesse paradigma é programar de uma forma mais próxima da realidade, programamos com classes, objetos, métodos, propriedades, etc., e principalmente integra termos como: abstração, escapsulação, modularidade, privacidade, polimorfismo, herança etc.
+
+### Classes
+
+
+* Atributos - são informações de uma classe.
+    * Atributos para um jogo: "título, "Gênero", "Produtora", "Preço.
+
+
+* Métodos - são açoes que uma classe pode realizar.
+    * Métodos para um jogo - "Abrir", "Carregar", Fechar", "Atualizar", "Executar".
+
+* Objetos - são realizações das classes.
+    * Objeto de um carro - "Ferrari", "Tesla", "Supra".
+
+### Abstração
+> Abstração é um dos conceitos mais importantes do paradigma orientado a objetos e também um de seus pilares. O conceito de abstração consiste em esconder os detalhes de algo, no caso, os detalhes desnecessários, Em suma, pouco importa os detalhes do que aconteceu durante a manutenção do seu carro, o que importa é que ele voltou funcionando.
+
+No mundo real, utilizamos abstrações o tempo todo. Tudo que não sabemos como funciona por baixo dos panos pode ser considerado uma abstração.
 
 
 
+```Javascript
+class Jogo{  // classe 
 
+    constructor(){
+        // Atributos
+        this.titulo ='';
+        this.genero ='';
+        this.produtora ='';
+        this.preço = 0
+    }
 
+     // Métodos
+    Abrir(){
+        console.log('jogo abrindo');
+    }
 
+    Carregar(){
+        console.log('Loading...');
+    }
 
-
-
-
-
-
-**[⬆ voltar ao topo](#Índice)**
-
----
-
-## <h1>Introdução a API REST con node.js
-
-###
-
-
-
-
-
-
-
-
-
-
-
-**[⬆ voltar ao topo](#Índice)**
-
----
-
-## <h1>Consume de API REST com Axios
-###
-
-
-
-
-
-
-
-
-
-
-
-
-**[⬆ voltar ao topo](#Índice)**
-
----
-
-## <h1>Autenticação de API Rest com JWT
-
-###
-
-
-
-
-
-
-
-
+    Fechar(){
+        console.log('Aperte ESC para fechar');
+    }
+}
+```
 
 
 
@@ -482,40 +466,3 @@ Detalhe que na programação assíncrona as coisas são executadas ao mesmo temp
 
 ---
 
-## <h1>Consumo de API Rest com JWT
-
-###
-
-
-
-
-
-
-
-
-
-
-
-**[⬆ voltar ao topo](#Índice)**
-
----
-
-
-## <h1>Documentação com API Rest
-
-###
-
-
-
-
-
-
-
-
-
-
-
-
-**[⬆ voltar ao topo](#Índice)**
-
----
