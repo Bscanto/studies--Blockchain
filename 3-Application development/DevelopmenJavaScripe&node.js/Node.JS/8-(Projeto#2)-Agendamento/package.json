@@ -1,0 +1,20 @@
+{
+  "name": "agendamento",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.5",
+    "express": "^4.18.2",
+    "mongoose": "^5.13.16",
+    "nodemailer": "^6.4.16",
+    "nodemon": "^2.0.6"
+  },
+  "description": ""
+}

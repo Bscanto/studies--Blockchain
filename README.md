@@ -1,2 +1,2 @@
 # studies--trainings
-Repository for studies, notes and training from the compass Learning Path.
+Este repositório foi criado para armazenar o conteúdo da trilha de aprendizado da bolsa da COMPASS UOL na qual participo!

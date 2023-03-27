@@ -36,7 +36,13 @@
     - [Algumas características](#algumas-características)
     - [Classes](#classes)
     - [Abstração](#abstração)
-    
+  - [Introdução a API REST com Node.js](#introdução-a-api-rest-com-nodejs)
+    - [O que são APIs](#o-que-são-apis)
+    - [Verbos http](#verbos-http)
+    - [Rest](#rest)
+  - [O que é autenticação de API?](#o-que-é-autenticação-de-api)
+  - [Documentação de API](#documentação-de-api)
+  - [Validação de formulários](#validação-de-formulários)
       
   
 
@@ -97,7 +103,7 @@ São valores que passamos pela url do nosso servidor, exemplo :
 ```javascript
 app.get("/ola/:nome", function (requisicao, resposta) {
     // REQUISICAO => DADOS ENVIADOS PELO USUÁRIO
-    // RESPOATA => RESPOSTA QUE VAI SER ENVIADA PARA O USUÁRIO
+    // RESPOSTA => RESPOSTA QUE VAI SER ENVIADA PARA O USUÁRIO
     var nome = requisicao.params.nome;
     resposta.send("<h1>Oi " + nome + "</h1>");
 });
@@ -408,6 +414,7 @@ Detalhe que na programação assíncrona as coisas são executadas ao mesmo temp
 
 ## <h1>Orientação a objeto com javascript
 
+[Arquivos da aula](https://github.com/Bscanto/studies--trainings/tree/main/3-Application%20development/DevelopmenJavaScripe%26node.js/Node.JS/4%20-Orienta%C3%A7%C3%A3o%20a%20objeto)
 ### O que é orientação a objeto
 > Programação orientada a objetos é um paradigma de programação baseado no conceito de "objetos", que podem conter dados na forma de campos, também conhecidos como atributos, e códigos, na forma de procedimentos, também conhecidos como métodos
 
@@ -466,3 +473,53 @@ class Jogo{  // classe
 
 ---
 
+## <h1>Introdução a API REST com Node.js
+
+### O que são APIs
+>As APIs (Application Programming Interfaces) são construções disponíveis nas linguagens de programação que permitem a desenvolvedores criar funcionalidades complexas mais facilmente. Tais construções abstraem o código mais complexo, proporcionando o uso de sintaxes mais simples em seu lugar.
+
+
+### Verbos http
+* Fundamentos
+> A ideia geral é a seguinte: seu serviço vai prover uma url base e os verbos HTTP vão indicar qual ação está sendo requisitada pelo consumidor do serviço.
+Por exemplo, considerando a URL www.dominio.com/rest/notas/, se enviarmos para ela uma requisição HTTP utilizando o verbo GET, provavelmente obteremos como resultado uma listagem de registros (notas, nesse caso). Por outro lado, se utilizarmos o verbo POST, provalmente estaremos tentando adicionar um novo registro, cujos dados serão enviados no corpo da requisição.
+Da mesma forma, a URL www.dominio.com/rest/notas/1, por exemplo, poderia ser usada para diferentes finalidades, dependendo do verbo enviado na requisição. No caso do GET, essa URL provavelmente deveria nos retornar o registro de ID 1 (nesse caso, a nota de ID = 1). Já o verbo DELETE indicaria que desejamos remover esse registro.
+Repare que a URL se mantém – o verbo indica o que estamos fazendo de fato. Por exemplo, não precisamos disponibilizar no serviço uma URL como /notas/listar ou /notas/remover/1.
+
+### Rest
+>O que é um serviço REST?
+Resultado de imagem para REST
+Essencialmente, Rest é (Representational State Transfer) que, em português, é “ Transferência de Estado Representacional ”. Por sua definição, trata-se de um conjunto de princípios e definições necessário para a criação de um projeto com interfaces bem definidas. É, na verdade, uma abstração da arquitetura da Web.
+
+
+
+
+
+**[⬆ voltar ao topo](#Índice)**
+
+---
+## <h1>O que é autenticação de API?
+A Autenticação na API Rest permite que se obtenha autorização para se comunicar e realizar Emissão, Recebimento e Importação de de DFes, entre outras ações relacionadas a DF-es e Empresas. Antes de utilizar qualquer um dos serviços da API, o usuário deve obter um x-auth-token.
+
+**[⬆ voltar ao topo](#Índice)**
+
+---
+
+## Documentação de API
+A documentação de API é um longo documento voltado a descrever como utilizar uma API. Ela contém tutoriais, informações sobre compatibilidade, rotinas de correção de problemas e a descrição de cada funcionalidade desse tipo de solução. Desse modo, os usuários podem aprender a utilizá-la a qualquer momento por conta própria e corrigir eventuais problemas durante o uso.
+
+**[⬆ voltar ao topo](#Índice)**
+
+---
+
+## Validação de formulários
+
+>Uma das tarefas mais importantes no desenvolvimento web é a validação de dados por meio de formulários. Imagine que você tem uma biblioteca para gerenciar e vai construir uma página de cadastro. Será necessário criar um formulário para receber as informações que o cliente irá repassar, como também, será necessário verificar se esses dados informados são válidos.
+
+A validação pode ser feita quando os dados chegarem no servidor, porém, uma das práticas mais comuns para validação é com o uso de JavaScript, tendo em vista que, essa atividade vai ser realizada no navegador do cliente.
+
+[Arquivos da validação de documentos]()
+
+**[⬆ voltar ao topo](#Índice)**
+
+---
