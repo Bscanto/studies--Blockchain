@@ -44,11 +44,11 @@ Para executar esta aplicação, você precisará seguir os seguintes passos:
 1. Crie uma pasta na sua area de trabalho e nomeie;
 2. Dentro dessa pasta clique com o botão direito do mouse e abra o terminal do git  (Git bach here);
 3. Abra código-fonte da aplicação a partir do repositório GitHub:
-[Codigo do projeto para download](https://github.com/Bscanto/Api-Cadastro-Clientes.git);
+[Codigo do projeto para download](https://github.com/Bscanto/API-Cadastro-Clientes/tree/main/api);
 4. Clique em code e copie a url do repositorio: ![]( )
 5. No terminal do git digite:
 ```
-git clone https://github.com/Bscanto/Api-Cadastro-Clientes.git
+git clone https://github.com/Bscanto/API-Cadastro-Clientes/tree/main/api
 ```
 
 6. Abra o visual studio code, abra o terminal do vscode (ctrl '), navegue até a pasta raiz do projeto  e execute os comandos:
@@ -77,11 +77,15 @@ npm install --save mysql2
 ```
 7. Abra o mysql workbench, e crie o banco de dados  como no exemplo abaixo:
 ![Criar banco de dados](https://user-images.githubusercontent.com/75629284/228021101-37d3e7c4-0bcc-4872-9bd1-de4ffcfc4d08.mp4);
-8. No terminal do visual studio code digite o seguinte comando:
+
+8. Na pasta database, arquivo database.js, trocar a senha do banco de dados para sua senha do mysql:
+![dsBuffer bmp](https://user-images.githubusercontent.com/75629284/228030349-3a9cf148-3ea7-45ee-81dd-8039d574f919.png)
+
+9. No terminal do visual studio code digite o seguinte comando:
 ```
 npx nodemon index.js
 ```
-9. Abra um navegador da web e acesse http://localhost:8080 para ver a aplicação em execução.
+10. Abra um navegador da web e acesse http://localhost:8080 para ver a aplicação em execução.
 ### Pronto Aplicação deve estar rodando !
 
 >Com esses passos, você deve ser capaz de executar a aplicação localmente em sua máquina. Se você tiver problemas ao seguir esses passos, certifique-se de que todas as dependências foram instaladas corretamente e que todas as variáveis de ambiente foram definidas corretamente.
