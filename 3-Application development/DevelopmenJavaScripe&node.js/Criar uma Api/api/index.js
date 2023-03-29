@@ -69,6 +69,9 @@ app.post("/salvarcadastro", (req, res) => {
         estado: estado
     }).then(() => {
         res.redirect("/");
+    }).catch((err) => {
+      console.log(err);
+      res.status(500).send('Ocorreu um erro ao Cadastrar');
     });
 });
 
@@ -110,6 +113,9 @@ app.post("/atualizarcadastro/:id", (req, res) => {
         console.log(`them id`)
         res.redirect('/');
       })
+    }).catch((err) => {
+      console.log(err);
+      res.status(500).send('Ocorreu um erro ao buscar o cadastro');
     });
 });
 
