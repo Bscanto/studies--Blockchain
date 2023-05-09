@@ -4,9 +4,6 @@ const bodyParser = require("body-parser");
 const connection = require("./database/database");
 const Cadastro = require("./database/Cadastro"); // importando o model da tabela
 
-
-
-
 // Dizendo para o Express usar o EJS como View engine
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
