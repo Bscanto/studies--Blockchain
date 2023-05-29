@@ -1,4 +1,0 @@
-alias stop-hathord='sudo supervisorctl stop hathord'
-alias start-hathord='sudo supervisorctl start hathord'
-alias status-hathord='sudo supervisorctl status hathord'
-alias restart-hathord='sudo supervisorctl restart hathord'
