@@ -2,7 +2,7 @@
 
 ---
 
- ![Criando um bloco](https://github.com/Bscanto/studies--trainings/blob/main/2%20-%20Getting%20Started%20with%20Blockchain/Como%20funciona%20a%20blockchain/1.Criando%20um%20bloco.png)
+ ![Criando um bloco]([https://github.com/Bscanto/studies--trainings/blob/main/2%20-%20Getting%20Started%20with%20Blockchain/Como%20funciona%20a%20blockchain/1.Criando%20um%20bloco.png](https://github.com/Bscanto/studies--Blockchain/blob/main/Getting%20Started%20with%20Blockchain/Como%20funciona%20a%20blockchain/1.Criando%20um%20bloco.png))
 
  ![Minerando um hash do bloco](https://github.com/Bscanto/studies--trainings/blob/main/2%20-%20Getting%20Started%20with%20Blockchain/Como%20funciona%20a%20blockchain/2.minerando%20o%20%20hash%20do%20bloco.png)
 
