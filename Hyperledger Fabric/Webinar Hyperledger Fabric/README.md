@@ -40,8 +40,8 @@ A aplicação amplamente reconhecida do blockchain é a criptomoeda Bitcoin, emb
    Contratos inteligentes primariamente executam operações de put, get e delete no estado global e também podem consultar os registros imutáveis de transações na blockchain.
 
    * ```get``` normalmente representa uma consulta para recuperar informações sobre o estado atual de um objeto de negócios.
-   * ```get``` normalmente cria um novo objeto de negócios ou modifica um existente no estado global do livro-razão.
-   * ```get``` normalmente representa a remoção de um objeto de negócios do estado atual do razão, mas não seu histórico.
+   * ```put``` normalmente cria um novo objeto de negócios ou modifica um existente no estado global do livro-razão.
+   * ```delete``` normalmente representa a remoção de um objeto de negócios do estado atual do razão, mas não seu histórico.
    * >Os contratos inteligentes têm muitas APIs disponíveis para eles. Em todos os casos, se as transações criam, leem, atualizam ou excluem objetos de negócios no estado global, a blockchain manterá um registro imutável dessas alterações.
 
 ### Endosso
